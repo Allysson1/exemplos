@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+nav,
+header,
+aside,
+article,
+section,
+footer {
+    margin: 5px;
+    background-color: gray;
+
+
+}
+
+article {
+    width: 480px;
+    float: left;
+    margin-top: 0px;    
+}
+
+aside {
+    width: 500px;
+    float: right;
+    margin-top: 0px;
+}
+
+body {
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
+.logo {
+    width: 990px;
+  border-bottom: 0px;
+}
+
+footer {
+    clear:both;
+}
+
+a  {
+    padding:0px 15px 0px 15px; 
+    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color:white ;
+    background-color: #383838;
+}
